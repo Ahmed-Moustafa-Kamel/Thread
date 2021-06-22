@@ -8,7 +8,6 @@ public class Main {
             System.out.println("hi from main");
         }
         Mytrial tr=new Mytrial("mytrial");
-        tr.run();
         Thread tr1= new Thread(tr);
         tr1.start();
 
